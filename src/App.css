@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css or Dashboard.css */
+
+.main-content {
+  margin-left: 64px;     /* Same as sidebar width */
+  margin-top: 60px;      /* Same as topbar height */
+  padding: 20px;
+}

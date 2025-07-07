@@ -1,13 +1,15 @@
-import React from 'react';
-import './App.css';
-import Sidebar from './components/Sidebar';
+import React from "react";
+import Sidebar from "./components/Sidebar";
+import Topbar from "./components/Topbar";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Sidebar />
-      <div style={{ marginLeft: '64px', padding: '20px' }}>
-        {/* Main content will go here later */}
+      <div className="main-content">
+        <Topbar />
+        {/* page content will go here */}
       </div>
     </div>
   );
