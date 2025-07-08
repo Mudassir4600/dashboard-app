@@ -3,7 +3,7 @@ import "../styles/Topbar.css";
 import { UserCircle } from "lucide-react";
 
 const Topbar = () => {
-  const username = sessionStorage.getItem("username") || "Username";
+  const username = sessionStorage.getItem("username") || "User";
 
   return (
     <div className="topbar">
